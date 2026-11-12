@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="232" height="52" viewBox="0 0 232 52">
+  <defs>
+    <radialGradient id="pl" cx="35%" cy="35%" r="70%"><stop offset="0" stop-color="#DDD6FE"/><stop offset=".55" stop-color="#8B5CF6"/><stop offset="1" stop-color="#4C1D95"/></radialGradient>
+    <linearGradient id="tx" x1="0" x2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#DDD6FE"/></linearGradient>
+  </defs>
+  <g transform="translate(26 26)">
+    <circle r="9.5" fill="url(#pl)"/>
+    <g transform="rotate(-28)">
+      <ellipse rx="22" ry="8.5" fill="none" stroke="#A3E635" stroke-width="2" opacity=".9"/>
+      <g>
+        <circle cx="22" cy="0" r="3.4" fill="#A3E635"/>
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="7s" repeatCount="indefinite"/>
+      </g>
+    </g>
+  </g>
+  <text x="58" y="34" font-family="Space Grotesk, Inter, Segoe UI, Arial, sans-serif" font-size="27" font-weight="700" fill="url(#tx)" letter-spacing="-.5">&#211;rbita</text>
+  <circle cx="148" cy="31" r="3" fill="#A3E635"/>
+</svg>

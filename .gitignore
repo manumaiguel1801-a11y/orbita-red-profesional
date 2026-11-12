@@ -1,0 +1,25 @@
+# Credenciales y entorno
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Archivos temporales de Office y del editor
+~$*
+.vscode/
+
+# Material de trabajo interno (no se publica)
+requisitos.md
+lista_verificacion.md
+enunciado_profesor.md
+Proyecto_investigacion*.docx
+docs/Documento_Academico_Orbita.docx
